@@ -3,7 +3,7 @@ import Landing from "./pages/Landing";
 import SignIn from "./pages/SignInPage";
 import SignUp from "./pages/SignUpPage";
 import MyPage from "./pages/MyPage";
-import Home from "./pages/Home";
+import ChatRoom2 from "./pages/ChatRoom2";
 
 function App() {
   return (
@@ -13,10 +13,12 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/mypage" element={<MyPage />} />
-        <Route path="/home" element={<Home />}></Route>
+        <Route path="/chatting" element={<ChatRoom2 />} />
       </Routes>
     </BrowserRouter>
   );
 }
 
 export default App;
+
+
